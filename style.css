@@ -1,0 +1,80 @@
+body {
+    padding: 0px;
+    border:  0px;
+    margin:  0px; 
+    height:  2000px;
+    background: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
+
+
+.nav {
+    position:   absolute;
+        right:  100px;
+        top:    54px;
+    background: none;
+    display:    flex;
+    gap:        28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.btn {
+    background:transparent ; 
+    border:    none;
+    color:   rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+}
+
+.btn:hover {
+    color:  rgb(202, 212, 221);
+
+}
+
+.logo {
+    position: absolute;
+    height:   120px;
+    width:    210px;
+}
+
+.br {
+    background-color: rgb(123, 125, 129);
+    height:             2px;
+    border:             none;
+    position:           absolute;
+        top:            115px;
+        right:          0px;
+    width:              1466px;
+}
+
+.video {
+    position: absolute;
+        right: 129px;
+        top:210px;
+    height: 570px;
+    width: 660px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;    
+} 
+
+
+.top-video {
+    height: 100px;
+    width: 660px;
+    background: rgb(34, 34, 34);
+    position: absolute;
+        right: 129px;
+        top: 220px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.h4 {
+    position: absolute;
+        right: 479px;
+        top: 210px;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
